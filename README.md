@@ -46,7 +46,7 @@ Views subscribe to the models through the built-in <b>.on()</b> method, and they
 
 <p><b>Methods:</b></p>
 <b>Initialize():</b><br>
-If method initialize is declared, it will run automatically when the instance is created.
+If method initialize is declared, it will run automatically when the instance is created.<br>
 
 <b>$():</b><br>
 Just like jQuery (and how backbone implemented it) the method this.$() is a handy shorthand for <code>document.querySelectorAll(selector)</code>.
