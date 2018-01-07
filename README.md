@@ -12,7 +12,8 @@ This Observer (pub/sub) module contains basic functionality you can find in popu
 <h2>The Model</h2>
 Contains data and trigger events when the data changes (unless passed the parameter <b>silent:true</b>). Everytime data changes two events are triggered, a generic “change” event and a name-spaced “change:event” event.<br>
 <b>Methods:</b><br>
-<b>.set():</b> Add or modify data in model object. This will trigger events for all subscribed views.
+<b>.set():</b><br>
+Add or modify data in model object. This will trigger events for all subscribed views.<br>
 <code><b>Syntax 1:</b> model.set( property, value, silent);</code>
 
 <code><b>Syntax 2:</b> 
