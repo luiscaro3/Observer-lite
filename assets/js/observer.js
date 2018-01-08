@@ -75,12 +75,12 @@ let Observer = {
           return false;
         }
         
-        if(!silent) {
-          this.attributes[key] = value;
-        }          
+        this.attributes[key] = value;
         
-        // Trigger events every time we modify content
-        this.trigger('change change:' + key, value)
+        if(!silent) {
+          // Trigger events every time we modify content
+          this.trigger('change change:' + key, value)
+        }          
       } 
       
       // If user passed on object to store many values
